@@ -16,4 +16,4 @@ Run Command -------------------------------------------
 
 docker compose -f docker-compose-ce.yaml up -d
 
-docker-compose -f docker-compose-ce.yaml exec passbolt su -m -c "/usr/share/php/passbolt/bin/cake passbolt register_user -u YOUR_EMAIL -f YOUR_NAME -l YOUR_LASTNAME -r admin" -s /bin/sh www-data
+docker-compose -f docker-compose-ce.yaml exec passbolt su -m -c "/usr/share/php/passbolt/bin/cake passbolt register_user -u hemantrajput6969@gmail.com -f hemant -l rajput -r admin" -s /bin/sh www-data
